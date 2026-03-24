@@ -1,0 +1,6 @@
+---
+- name: Test my_own_role
+  hosts: localhost
+  gather_facts: false
+  roles:
+    - my_own_role
